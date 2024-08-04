@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body style="background-color: darkslategrey;">
+
+     <div style="background-color: white; height: 600px; width: 800px; margin-left: 250px;">
+        <h1 style="padding:20px ;">Software Developer Job Application Form</h1>
+
+<form action="Revision.html" method="get">
+<fieldset style="margin-left: 20px; margin-right: 20px;" >
+    <legend>Personal Information</legend>
+   <label for="name">Full Name:</label>
+    <input type="text" id="name"  placeholder="Full Name" required  style="width: 200px; height: 20px; margin-top: 10px;"><br><br>
+    <label for="email">Email:</label> &nbsp; &nbsp; &nbsp; &nbsp;
+    <input type="email" id="email" placeholder="Email"  style="width: 200px; height: 20px;" required> <br> <br>
+    <label for="number">Phone No:</label>  &nbsp;
+    <input type="number" id="number" placeholder="Number"  style="width: 200px; height: 20px;" required>
+
+
+</fieldset>
+<fieldset style="margin-left: 20px; margin-right: 20px; margin-top: 10px;">
+    <legend>Job Details</legend>
+    <label for="position">Position Applied for:</label>
+    <input type="text" value="Software Developer" id="position" readonly  style="width: 200px; height: 20px;" ><br><br>
+    <label for="exp">Year of Experience:</label> &nbsp; 
+  <input list="exps" id="exp" required placeholder="Year"  style="width: 200px; height: 20px;" >
+  <datalist id="exps">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10"> 10</option>
+  </datalist><br><br>
+
+  <label for="skills">Technical Skills:</label> &nbsp; &nbsp; &nbsp; 
+  <input type="text" id="skills" placeholder="Skills" required  style="width: 200px; height: 20px;" ><br><br>
+
+   <label for="loc">Preferred Location:</label> &nbsp; 
+   <select name="select" id="loc"  style="width: 200px; height: 20px;" >
+    <option value="sel">Select</option>
+    <option value="pune">Pune</option>
+    <option value="hyderabad">Hyderabad</option>
+    <option value="bangalore">Bangalore</option>
+    <option value="chennai">Chennai</option>
+   \
+   </select><br><br>
+<label for="resume">Upload Resume:</label> &nbsp; &nbsp; &nbsp; 
+<input type="file" id="resume" required><br><br>
+
+</fieldset>
+<button type="submit"style= "margin-left: 20px; margin-top: 10px;">Submit Application</button>
+<button type="reset" style= " margin-top: 10px;">Reset</button>
+
+</form>
+
+     </div>
+  
+</body>
+</html>
